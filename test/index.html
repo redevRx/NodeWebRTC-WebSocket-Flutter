@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #container {
+            margin: 0px auto;
+            width: 500px;
+            height: 375px;
+            border: 10px #333 solid;
+        }
+        #videoElement {
+            width: 500px;
+            height: 375px;
+            background-color: #666;
+        }
+        </style>
+
+</head>
+<body>
+    <button id="btn" onclick="myCall()">Call</button>
+    <div id="container">
+        <video autoplay="true" id="call">
+        
+        </video>
+    </div>
+    <div id="container">
+        <video autoplay="true" id="remoteCall">
+        
+        </video>
+    </div>
+    <script>
+    </script>
+    <!-- import wenRTC -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/7.4.0/adapter.min.js" integrity="sha512-Q1CI1+VPudwzIg95qTgAybfooiw87q1fTbYlnjzqUPgKxUJjZMMS2I9bXQtq1GWH4WT38E0VOvHpkCS10hz49g==" crossorigin="anonymous"></script>
+    <script src="public/app.js"></script>
+</body>
+</html>
